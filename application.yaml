@@ -1,0 +1,44 @@
+app:
+  env: development
+server:
+  addr: ":8080"
+  read_header_timeout: 5s
+  read_timeout: 10s
+  write_timeout: 15s
+  shutdown_timeout: 10s
+  max_header_bytes: 1048576
+  max_request_body_bytes: 1048576
+logger:
+  level: "info"
+  format: "console"
+  output_paths:
+    - "stdout"
+  error_output_paths:
+    - "stderr"
+database:
+  dsn: "postgres://springhere:springhere@localhost:5432/springhere?sslmode=disable"
+redis:
+  addr: "localhost:6379"
+  username: ""
+  password: ""
+  db: 0
+  dial_timeout: 5s
+  read_timeout: 3s
+  write_timeout: 3s
+auth:
+  jwt_secret: "replace-with-at-least-32-byte-development-secret"
+  issuer: "springhere-gin-server"
+  audience: "springhere-react-admin"
+  access_token_ttl: 15m
+  refresh_token_ttl: 720h
+  refresh_cookie_name: "springhere_refresh"
+  refresh_cookie_secure: false
+  allowed_origins:
+    - "http://localhost:5173"
+captcha:
+  enabled: true
+  length: 4
+  ttl: 2m
+  width: 160
+  height: 48
+  issue_limit_per_minute: 20

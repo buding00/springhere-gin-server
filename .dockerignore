@@ -1,0 +1,10 @@
+.git
+.idea
+.DS_Store
+bin
+tmp
+coverage.out
+docs
+*.md
+.env
+deployments
