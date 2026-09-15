@@ -1,0 +1,22 @@
+schema_version: 1
+component: backend
+cli_constraint: ">=0.1.0 <1.0.0"
+payload:
+  include:
+    - cmd
+    - internal
+    - pkg
+    - deployments
+    - docs
+    - application.yaml
+    - Dockerfile
+    - .dockerignore
+    - .env.example
+    - .gitignore
+    - Makefile
+    - go.mod
+    - go.sum
+    - README.md
+transforms:
+  - kind: go_module
+    value_from: backend_module
