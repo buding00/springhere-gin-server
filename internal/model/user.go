@@ -3,7 +3,7 @@ package model
 import (
 	"time"
 
-	"github.com/fast-template/springhere-gin-server/pkg/constant"
+	"github.com/buding00/springhere-gin-server/pkg/constant"
 )
 
 // User 对应 users 表，密码哈希不得出现在 HTTP 响应里。

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/fast-template/springhere-gin-server/pkg/config"
+	"github.com/buding00/springhere-gin-server/pkg/config"
 	"github.com/redis/go-redis/v9"
 )
 

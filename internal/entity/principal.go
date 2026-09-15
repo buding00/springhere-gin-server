@@ -1,8 +1,8 @@
 package entity
 
 import (
-	"github.com/fast-template/springhere-gin-server/internal/model"
-	"github.com/fast-template/springhere-gin-server/pkg/constant"
+	"github.com/buding00/springhere-gin-server/internal/model"
+	"github.com/buding00/springhere-gin-server/pkg/constant"
 )
 
 // Principal 是鉴权通过后放进请求上下文的当前用户。

@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/fast-template/springhere-gin-server/internal/data"
-	"github.com/fast-template/springhere-gin-server/internal/entity"
-	"github.com/fast-template/springhere-gin-server/pkg/constant"
-	"github.com/fast-template/springhere-gin-server/pkg/response"
-	"github.com/fast-template/springhere-gin-server/pkg/utils"
+	"github.com/buding00/springhere-gin-server/internal/data"
+	"github.com/buding00/springhere-gin-server/internal/entity"
+	"github.com/buding00/springhere-gin-server/pkg/constant"
+	"github.com/buding00/springhere-gin-server/pkg/response"
+	"github.com/buding00/springhere-gin-server/pkg/utils"
 	"github.com/gin-gonic/gin"
 )
 

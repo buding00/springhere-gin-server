@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/alicebob/miniredis/v2"
-	"github.com/fast-template/springhere-gin-server/internal/entity"
-	"github.com/fast-template/springhere-gin-server/pkg/constant"
+	"github.com/buding00/springhere-gin-server/internal/entity"
+	"github.com/buding00/springhere-gin-server/pkg/constant"
 	"github.com/redis/go-redis/v9"
 )
 

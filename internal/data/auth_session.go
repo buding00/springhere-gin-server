@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/fast-template/springhere-gin-server/internal/entity"
+	"github.com/buding00/springhere-gin-server/internal/entity"
 	"github.com/redis/go-redis/v9"
 )
 

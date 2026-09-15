@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/fast-template/springhere-gin-server/pkg/config"
+	"github.com/buding00/springhere-gin-server/pkg/config"
 	"github.com/google/uuid"
 )
 

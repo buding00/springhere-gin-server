@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fast-template/springhere-gin-server/internal/model"
-	"github.com/fast-template/springhere-gin-server/internal/model/query"
-	"github.com/fast-template/springhere-gin-server/pkg/constant"
-	"github.com/fast-template/springhere-gin-server/pkg/utils"
+	"github.com/buding00/springhere-gin-server/internal/model"
+	"github.com/buding00/springhere-gin-server/internal/model/query"
+	"github.com/buding00/springhere-gin-server/pkg/constant"
+	"github.com/buding00/springhere-gin-server/pkg/utils"
 	"github.com/google/uuid"
 	"gorm.io/gorm"
 )

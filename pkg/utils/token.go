@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/fast-template/springhere-gin-server/pkg/config"
+	"github.com/buding00/springhere-gin-server/pkg/config"
 	"github.com/golang-jwt/jwt/v5"
 )
 

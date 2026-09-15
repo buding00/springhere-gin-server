@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/fast-template/springhere-gin-server/pkg/config"
-	"github.com/fast-template/springhere-gin-server/pkg/middleware"
-	"github.com/fast-template/springhere-gin-server/pkg/response"
+	"github.com/buding00/springhere-gin-server/pkg/config"
+	"github.com/buding00/springhere-gin-server/pkg/middleware"
+	"github.com/buding00/springhere-gin-server/pkg/response"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )

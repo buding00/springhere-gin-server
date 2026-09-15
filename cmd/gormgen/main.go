@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/fast-template/springhere-gin-server/internal/model"
+	"github.com/buding00/springhere-gin-server/internal/model"
 	"gorm.io/gen"
 )
 

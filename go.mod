@@ -1,4 +1,4 @@
-module github.com/fast-template/springhere-gin-server
+module github.com/buding00/springhere-gin-server
 
 go 1.26.3
 

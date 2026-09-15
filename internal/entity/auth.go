@@ -3,8 +3,8 @@ package entity
 import (
 	"time"
 
-	"github.com/fast-template/springhere-gin-server/internal/model"
-	"github.com/fast-template/springhere-gin-server/pkg/constant"
+	"github.com/buding00/springhere-gin-server/internal/model"
+	"github.com/buding00/springhere-gin-server/pkg/constant"
 )
 
 // LoginCommand 是登录请求体。

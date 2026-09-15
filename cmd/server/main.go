@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 
-	"github.com/fast-template/springhere-gin-server/pkg/app"
+	"github.com/buding00/springhere-gin-server/pkg/app"
 )
 
 func main() {

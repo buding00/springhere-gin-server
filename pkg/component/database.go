@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/fast-template/springhere-gin-server/pkg/config"
+	"github.com/buding00/springhere-gin-server/pkg/config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

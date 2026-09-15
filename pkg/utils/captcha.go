@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/fast-template/springhere-gin-server/pkg/config"
+	"github.com/buding00/springhere-gin-server/pkg/config"
 	"github.com/google/uuid"
 	"github.com/mojocn/base64Captcha"
 )
