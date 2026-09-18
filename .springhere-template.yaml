@@ -17,6 +17,8 @@ payload:
     - go.mod
     - go.sum
     - README.md
+    - AGENTS.md
+    - LICENSE
 transforms:
   - kind: go_module
     value_from: backend_module
