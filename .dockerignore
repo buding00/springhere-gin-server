@@ -7,4 +7,4 @@ coverage.out
 docs
 *.md
 .env
-deployments
+deploy

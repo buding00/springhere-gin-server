@@ -6,7 +6,7 @@ payload:
     - cmd
     - internal
     - pkg
-    - deployments
+    - deploy
     - docs
     - application.yaml
     - Dockerfile
@@ -20,3 +20,7 @@ payload:
 transforms:
   - kind: go_module
     value_from: backend_module
+  - kind: deploy_stack
+    path: deploy
+    from: springhere
+    value_from: project_name

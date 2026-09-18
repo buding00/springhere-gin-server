@@ -72,7 +72,7 @@ pkg/config          YAML + 环境变量
 ## 快速开始
 
 ```bash
-docker compose -f deployments/docker-compose.yaml up -d postgres redis
+docker compose -f deploy/springhere/docker-compose.yaml up -d postgres redis
 go run ./cmd/migrate -action up
 go run ./cmd/server -config application.yaml
 ```
@@ -164,7 +164,7 @@ captcha:
 cmd/server              HTTP 服务
 cmd/migrate             SQL 迁移（文件嵌入二进制）
 cmd/gormgen             根据 model 生成 query
-deployments/            Compose、Dockerfile
+deploy/springhere/      Compose、Nginx
 docs/接口文档.md         给前端的 HTTP 契约
 internal/               业务代码
 pkg/                    可复用的配置、中间件、组件
@@ -190,7 +190,7 @@ make gormgen-check       # 适合放 CI：生成后 query 目录不能有未提�
 在仓库根目录：
 
 ```bash
-docker build -f deployments/Dockerfile -t springhere-gin-server .
+docker build -f deploy/Dockerfile -t springhere-gin-server .
 ```
 
 入口为 `/server -config /application.yaml`。镜像里那份 YAML 是开发默认值。容器里请用环境变量覆盖 `DATABASE_DSN`、`REDIS_ADDR`、`AUTH_JWT_SECRET`，并把地址改成编排网络里的服务名，不要用 `localhost`。
